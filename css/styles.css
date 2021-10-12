@@ -1,0 +1,18 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: forestgreen;
+}
+
+button {
+  height: 28px;
+  border-radius: 4px;
+  background-color: goldenrod;
+}
+
+button:hover,
+button:focus {
+  background-color: blueviolet;
+}
