@@ -1,18 +1,47 @@
 * {
-  text-align: center;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: forestgreen;
+  background-color: black;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+
+  overflow: hidden;
 }
 
-button {
-  height: 28px;
-  border-radius: 4px;
-  background-color: goldenrod;
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-button:hover,
-button:focus {
-  background-color: blueviolet;
+.title {
+  font-size: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.value {
+  margin: 0 0 10px;
+  font-size: 48px;
+}
+
+.label {
+  font-size: 26px;
 }
